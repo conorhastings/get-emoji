@@ -10,5 +10,5 @@ give emoji name, get emoji image
 
 ```js
 import getEmoji from 'get-emoji';
-const rage = getEmoji(rage);
+const rage = getEmoji('rage');
 ```
