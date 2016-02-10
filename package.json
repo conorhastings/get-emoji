@@ -1,6 +1,6 @@
 {
   "name": "get-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "you give emoji name, we give you an emoji",
   "main": "dist/index.js",
   "scripts": {
