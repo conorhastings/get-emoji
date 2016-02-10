@@ -1,0 +1,24 @@
+{
+  "name": "get-emoji",
+  "version": "0.0.0",
+  "description": "you give emoji name, we give you an emoji",
+  "main": "dist/index.js",
+  "scripts": {
+    "emoji": "node ./lib/get-emoji-list.js",
+    "build": "npm run emoji && ./node_modules/.bin/webpack -p --progress",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13"
+  }
+}
