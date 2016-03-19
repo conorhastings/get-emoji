@@ -19,7 +19,7 @@ module.exports = {
 					presets: ['es2015', 'stage-2']
 				}
 			},
-			{ test: /\.(png|jpg)$/, loader: 'url-loader' }
+			{ test: /\.(png)$/, loader: 'url-loader' }
 		]
 	},
 	plugins: [
