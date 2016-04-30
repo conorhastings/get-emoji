@@ -1,6 +1,6 @@
 ## get-emoji
 
-give emoji name, get emoji image
+give emoji name, get emoji image. perf is a WIP
 
 ### Install
 
